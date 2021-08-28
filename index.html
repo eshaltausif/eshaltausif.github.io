@@ -1,112 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eshal Tausif</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eshal Tausif</title>
   <style>
-   
-   body{
-     background-color:mistyrose
-   }
-  /* Style the tab */
-  .tab {
-    overflow: hidden;
-    border: 4px solid #ccc;
-    background-color:rgb(236, 229, 229)
-    }
-  
-    
-    /* Style the buttons inside the tab */
-    .tab button {
-      background-color:whitesmoke;
-      float: left;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      padding: 14px 16px;
-      transition: 0.3s;
-      font-size: 17px;
-    }
-    
-    /* Change background color of buttons on hover */
-    .tab button:hover {
-     background-color:#ccc;
-    }
-    
-    /* Create an active/current tablink class */
-    .tab button.active {
-      background-color:lavender
-    }
-    
-    /* Style the tab content */
-    .tabcontent {
-      display: none;
-      padding: 6px 12px;
-      border: 1px solid #ccc;
-      border-top: none;
-    }
-    </style>
+  </style>
+</head>
 
+<body>
+  <header>
+    <h1>Eshal Tausif</h1>
+  </header>
 
-
-
-   </head>
-    <body>
-    
-    <div class="tab">
-      <button class="tablinks" onclick="open(event, 'About Me')">About Me</button>
-      <button class="tablinks" onclick="open(event, 'My Schooling')">My Schooling</button>
-      <button class="tablinks" onclick="open(event, 'Favourite Books')">Favourite Books</button>
-    </div>
-    
-    <div id="About Me" class="tabcontent">
+  <main>
+    <section>
       <h2>About Me</h2>
-      <p>My name is Eshal Tausif and I am currently in year 6 in Orelia Primary School. 
-          Next year I wil proceed to year 7 in Fremantle High School. This website is a prototype 
-          for the ICT project needed to apply in Fremantle High School's ICT program.
+      <p>My name is Eshal Tausif and I am currently in year 6 in Orelia Primary School.
+        Next year I wil proceed to year 7 in Fremantle High School. This website is a prototype
+        for the ICT project needed to apply in Fremantle High School's ICT program.
       </p>
-    </div>
-    
-    <div id="My Schooling" class="tabcontent">
+    </section>
+
+    <section>
       <h2>My Schooling</h2>
-       <h1>I HAVE SURVIVED...</h1>
-        <h3>8 years of Primary School</h3>
-        <p>I have been so far tortured and tormented in previous primary school years with... Math!
-             The worst thing ever concocted in history so far. I tried my best to reason with my teachers to 
-             use something much more better called English, but nobody agrees. My favourite subject of all 
-             in school has always been and forever will be English. The worst: Math. My fellow peers understand
-             my fear of math but no so much with the adults.My favourite pastime is reading. Books are the best
-             invention made. I am normally found reading in the sunlight on a warm summer day or curled up in my 
-             bed reading on a crisp, wintry day. This nobody understands, not even my friends who are quite 
-             concerned about why I love reading this much. </p> 
-            </div>
-    
-    <div id="Favourite Books" class="tabcontent">
+    <h1>I HAVE SURVIVED...</h1>
+    <h3>8 years of Primary School</h3>
+    <p>I have been so far tortured and tormented in previous primary school years with... Math!
+      The worst thing ever concocted in history so far. I tried my best to reason with my teachers to
+      use something much more better called English, but nobody agrees. My favourite subject of all
+      in school has always been and forever will be English. The worst: Math. My fellow peers understand
+      my fear of math but no so much with the adults.My favourite pastime is reading. Books are the best
+      invention made. I am normally found reading in the sunlight on a warm summer day or curled up in my
+      bed reading on a crisp, wintry day. This nobody understands, not even my friends who are quite
+      concerned about why I love reading this much. </p>
+    </section>
+
+    <section>
       <h2>Favourite Books</h2>
       <p>I am obviously a harry potter fan</p>
-    </div>
-    
-    <script>
-    function open(evt, Name) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablinks");
-      for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-      }
-      document.getElementById(Name).style.display = "block";
-      evt.currentTarget.className += " active";
-
-       <header>
-       <h1>Eshal Tausif</h1>
-      </header>
-
-      </script>
-     </body>
-     </html>
-    
+    </section>
+  </main>
+</body>
+</html>
