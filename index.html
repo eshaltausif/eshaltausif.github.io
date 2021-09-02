@@ -13,24 +13,75 @@
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
+    body {
+      background-color:inherit
+    }
     
+    .harrypotter {
+      padding-top: 10px;
+    }
+
+    .fridaybarnes {
+      padding-top: 15px;
+    }
+
+    .perfect {
+      padding-top: 15px;
+    }
+
 
     header {
       text-align: left;
-      }
-    h2 {
-        
+    } 
+
+
+    h2.bigger {
+      font-size: 100px; 
       text-align: left;
-      }
+
+      margin-bottom: 30px;
+    }
+
     p {
       text-align: left;
-      }
+    }
+
     h1 { 
       text-align: left;
     }
-    .AboutMeSection {
-      display: flexbox;
+
+    .survivation {
+      font-size: 30px;
     }
+    
+    .about {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 10%;
+
+    }
+
+    .Section2 {
+      padding: 30px 10%
+    } 
+
+    .Section3 {
+      padding: 30px 10%
+    }
+
+    .p1 {
+      font-size: 30px;
+    }
+
+    .p2 {
+      font-size: 22px;
+    }
+
+    .text {
+      width: 900px;
+    }
+
     .img2 {
       height:400px;
       width:267px;
@@ -79,6 +130,17 @@
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
+    .bold{
+      font-size: 110%;
+      font-weight: bold;
+    }
+    
+    .fancy_link {
+      text-decoration: underline;
+      color: darkslateblue;
+      font-weight: 900;
+      cursor:pointer;
+    }
 
   </style>
 </head>
@@ -86,7 +148,7 @@
 <body>
   <header>
     <h1>Eshal Tausif</h1>
-    <!-- NAVIGATION BAR ------------------  -->
+    <!-- NAVIGATION BAR -------------------->
     <nav> 
       <ul>
         <li> 
@@ -100,71 +162,77 @@
   </header>
 
   <main>
-    <section class="AboutMeSection">
-      <h2>About Me</h2>
-      <p>My name is Eshal Tausif and I am currently in year 6 in Orelia Primary School.
-        Next year I wil proceed to year 7 in Fremantle High School.
-      </p>
+    <section class="about">
+      <div class="text">
+        <h2 class="bigger">About Me</h2>
+        <p class="p1">My name is <span class="bold">Eshal Tausif</span> and I am currently in Year <span class="bold">6</span> in <a class="fancy_link" href="http://www.oreliaps.wa.edu.au/">Orelia Primary School</a>.
+          <br />
+          Next year I will proceed to Year <span class="bold">7</span> in <a class="fancy_link" href="http://https://fremantlecollege.wa.edu.au/">Fremantle College </p1>
+          </a>.
+        </p>
+      </div>
+      
       <img class="img1" src="https://lh3.googleusercontent.com/pw/AM-JKLWgURIVjgT7o4ivIQz-y3hcrB0FvGsGm-W3TGZ5FJplwSOD5jMxTWA6SrFbcuxVZorGC4492Fq0TwmLdOFocu0QqzFacx7PZ6QBnPRlOKPKrwmWYszzSMsye82c5LmMUr6BxpZe2tL4zHK-7Y116_3DhA=w457-h965-no?authuser=0">
     </section>
 
-    <section>
+    <section class="Section2">
       <h2 id="schooling">My Schooling</h2>
-    <h1>I HAVE SURVIVED...</h1>
-    <h3>8 years of Primary School</h3>
-    <p>I have been so far tortured and tormented in previous primary school years with... Math!
+    <h1 class="survivation">I HAVE SURVIVED...</h1>
+    <h3 class="8years">8 years of Primary School</h3>
+    <p class="p2">I have been so far tortured and tormented in previous primary school years with... Math!
       The worst thing ever concocted in history so far. I tried my best to reason with my teachers to
       use something much more better called English, but nobody agrees. My favourite subject of all
       in school has always been and forever will be English. The worst: Math. My fellow peers understand
-      my fear of math but no so much with the adults.My favourite pastime is reading. Books are the best
+      my fear of math but not so much with the adults. My favourite pastime is reading. Books are the best
       invention made. I am normally found reading in the sunlight on a warm summer day or curled up in my
-      bed reading on a crisp, wintry day. This nobody understands, not even some of my friends who are quite
+      bed reading on a crisp, wintry day. This nobody understands, not even some of my best friends who are quite
       concerned about why I love reading this much. </p>
     </section>
 
-    <section>
+    <section class="Section3">
       <h2 id="Books I Love">Books I Love</h2>
-      <div>
+      
         <div>
+          <div class="harrypotter">
           <h3>Harry Potter and the Prisoner of Azkaban</h3>
           <h4>Written by J.K Rowling and Illustrated by Jim Kay</h4>
           <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/4088/9781408855676.jpg">
           <p>⭐⭐⭐⭐⭐</p>
-          <p>My favourite book of all time. I enjoyed reading
-            and watching the classical and famous Harry Potter, Hermione Granger
-            and Ron Weasley explore Hogwart's secrets. </p>
-          
+          <p>My favourite book of all time. I enjoyed reading <br />
+            and watching the classical and famous Harry Potter, Hermione Granger <br />
+            and Ron Weasley explore Hogwart's secrets. </p> 
         </div>
   
-        <div>
+        <div class="fridaybarnes">
           <h3>Friday Barnes, No Escape</h3>
           <h4>Written by R.A.Spratt and Illustrated by Lily Pirri</h4>
           <img class="img2"src="https://cdn2.penguin.com.au/covers/original/9781760895761.jpg">
           <p>⭐⭐⭐⭐</p>
-          <p>The 11 year old child genius is now a 15 year old 
-            teenager stuck in her own problems and just let out of jail.
-            This is my favourite book of the series since it is set in 
+          <p>The 11 year old child genius is now a 15 year old <br />
+            teenager stuck in her own problems and just let out of jail.<br />
+            This is my favourite book of the series since it is set in <br />
             Italy and educates many about the Italian life.
           </p>
         </div>
   
-        <div>
+        <div class="perfect">
           <h3>Written by The Other Side of Perfect</h3>
           <h4>Mariko Turk and Illustrated by Anne Pomel</h4>
           <img class=img3 src = "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1599769497l/55277097.jpg">
           <p>⭐⭐⭐⭐⭐</p>
-          <p>This was a brilliant book! Alina's dreams of ballet shatter 
-            and she joins the high school musical. The end of ballet but 
-            the beginning of theatre just starts.I love this book because
-            Alina has to make peace with her past and acknowledge the racism 
-            she faced in ballet.
+          <p>This was a brilliant book! Alina's dreams of ballet shatter <br />
+            and she joins the high school musical. The end of ballet but <br />
+            the beginning of theatre just starts.cI love this book because <br />
+            Alina has to make peace with her past and acknowledge the racism <br /> 
+            she faced in ballet. 
           </p>
         </div>
       </div>
     </section>
 
     <footer>
-      <marquee>Copyright - 2021 - Eshal Tausif. Hope you enjoyed my Website!!!</marquee>
+      <marquee>Copyright - 2021 - Eshal Tausif. Hope You Enjoyed My Website!!!</marquee>
+      
     </footer>
   </main>
 </body>
